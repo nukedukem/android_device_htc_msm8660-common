@@ -48,6 +48,8 @@ PRODUCT_PACKAGES += \
     gralloc.msm8660 \
     hwcomposer.msm8660 \
     libgenlock \
+    libhwexternal \
+    libhwservice \
     libmemalloc \
     liboverlay \
     libqdutils \
@@ -63,6 +65,8 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libOmxAacEnc \
     libOmxAmrEnc \
+    libOmxEvrcEnc \
+    libOmxQcelp13Enc \
     libstagefrighthw
 
 # HDMI
