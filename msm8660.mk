@@ -91,10 +91,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/htc/msm8660-common/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw
 
-# MSM8660 firmware
-PRODUCT_COPY_FILES += \
-    device/htc/msm8660-common/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw
-
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
