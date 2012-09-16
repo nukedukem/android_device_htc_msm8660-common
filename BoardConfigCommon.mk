@@ -75,6 +75,7 @@ COMMON_GLOBAL_CFLAGS += -DQCOM_NO_SECURE_PLAYBACK
 USE_OPENGL_RENDERER := true
 TARGET_NO_HW_VSYNC := true
 TARGET_USES_C2D_COMPOSITION := true
+BOARD_EGL_CFG := vendor/qcom/proprietary/system/lib/egl/egl.cfg
 
 # Wifi related defines
 WIFI_BAND                        := 802_11_ABG
