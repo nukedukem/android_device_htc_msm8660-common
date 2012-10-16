@@ -106,6 +106,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     #debug.mdpcomp.maxlayer=3 \
     #debug.mdpcomp.logs=0 \
     debug.sf.hw=1 \
-    debug.egl.hw=1 \
     dev.pm.dyn_samplingrate=1 \
     ro.opengles.version=131072
